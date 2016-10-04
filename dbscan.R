@@ -1,5 +1,6 @@
 library('fpc')
 library('factoextra')
+library('ggplot2')
 
 A <- read.table("mining.data", sep=",",
                 col.names=c("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n"))
